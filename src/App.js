@@ -13,10 +13,10 @@ class App extends Component{
     this.onChange = this.onChange.bind(this);
   }
   onChange(value){
-    this.props.dispatch(setMessage(value))
+    this.props.setMessageValue(value)
   }
   render(){
-    const {message} = this.props.messageReducer;
+    const {message} = this.props.message;
     return(
       <div className="App">
         <h1> Hello, World! rr mm</h1>
@@ -30,6 +30,18 @@ class App extends Component{
   }
 }
 
-export default connect(state => state)(hot(module)(App));
+const mapDispatchToProps = (dispatch) => {
+  return {
+    setMessageValue: (value) => {
+      dispatch(setMessage(value))
+    }
+  }
+}
+
+const mapStateToProps = (state) => {
+  return { message: state.messageReducer };
+};
+
+export default connect(mapStateToProps,mapDispatchToProps)(hot(module)(App));
 
 //export default App;
