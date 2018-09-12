@@ -1,9 +1,9 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
-import InputPreview from './components/inputPreview';
+import InputPreview from '../components/inputPreview';
 import {connect} from 'react-redux';
-import {setMessage} from './actions/message';
-import "./App.css";
+import {setMessage} from '../actions/message';
+import "../assets/styles/App.css";
 import {Link} from 'react-router-dom';
 
 

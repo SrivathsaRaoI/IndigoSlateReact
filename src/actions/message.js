@@ -1,4 +1,4 @@
-import { SET_MESSAGE } from '../types/message';
+import { SET_MESSAGE } from '../types';
 export const setMessage = (message) => {
   return dispatch => {
     dispatch({
