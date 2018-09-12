@@ -19,7 +19,7 @@ class App extends Component{
     const {message} = this.props.message;
     return(
       <div className="App">
-        <h1> Hello, World! rr mm</h1>
+        <h1> Hello, World! rr mm kkk mmmm jjj</h1>
         <InputPreview value={message}
         onChange={this.onChange} />
         <Link to="/about">
