@@ -1,13 +1,10 @@
 import React from 'react';
 export default class InputPreview extends React.Component {
  render () {
+   console.log(this.props.value.message.response.data.banner.data.heading)
    return (
      <div>
-       <input
-        type="text"
-        value={this.props.value}
-        onChange={e => this.props.onChange(e.target.value)}
-        />
+       {this.props.value.message.response.data.banner.data.heading}
      </div>
    )
  }

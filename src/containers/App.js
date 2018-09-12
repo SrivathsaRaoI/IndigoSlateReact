@@ -10,18 +10,17 @@ import {Link} from 'react-router-dom';
 class App extends Component{
   constructor(){
     super();
-    this.onChange = this.onChange.bind(this);
   }
-  onChange(value){
-    this.props.setMessageValue(value)
+  componentDidMount(){
+    this.props.setMessageValue()
   }
   render(){
-    const {message} = this.props.message;
+    const message = this.props.message;
+    console.log("srivathsa",message);
     return(
       <div className="App">
         <h1> Hello, World! rr mm kkk mmmm jjj</h1>
-        <InputPreview value={message}
-        onChange={this.onChange} />
+        <InputPreview value={message} />
         <Link to="/about">
         <button>Go to About</button>
         </Link>
@@ -32,8 +31,8 @@ class App extends Component{
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    setMessageValue: (value) => {
-      dispatch(setMessage(value))
+    setMessageValue: () => {
+      dispatch(setMessage())
     }
   }
 }
