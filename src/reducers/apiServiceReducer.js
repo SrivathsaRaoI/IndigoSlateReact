@@ -1,4 +1,4 @@
-import { SET_MESSAGE } from "../types";
+import { COMMON_API } from "../types";
 const initState = {
  message: {response:{data:{banner:{data:{heading:""
 }
@@ -9,7 +9,7 @@ const initState = {
 }
 export default (state = initState, action) => {
 switch(action.type) {
- case SET_MESSAGE :
+ case COMMON_API :
  return {...state, message: action.payload}
  default :
  return state

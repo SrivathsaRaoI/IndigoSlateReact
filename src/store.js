@@ -1,8 +1,8 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
-import messageReducer from './reducers/message'
+import apiServiceReducer from './reducers/apiServiceReducer'
 import thunk from 'redux-thunk'
 const reducer = combineReducers({
- messageReducer
+    apiServiceReducer
 })
 const store = createStore(
  reducer,
