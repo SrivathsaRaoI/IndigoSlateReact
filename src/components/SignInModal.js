@@ -6,11 +6,9 @@ class SignInModal extends React.Component {
     super();
   }
  render () {
-  console.log(this.props.apiServiceReducer.message.response.data.banner.data.heading)
    return (
      <div>
        SignInModal <br/>
-      {this.props.apiServiceReducer.message.response.data.banner.data.heading}
      </div>
    )
  }

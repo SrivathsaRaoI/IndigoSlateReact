@@ -1,6 +1,6 @@
 {
    "general":{
-      "logo":"./src/assets/images/microsoft-logo.png",
+      "logo":"./assets/images/microsoft-logo.png",
       "name" : "ms azure cosmos db"
    },
    "navigation":[

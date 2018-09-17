@@ -1,16 +1,11 @@
 import { COMMON_API } from "../types";
 const initState = {
- message: {response:{data:{banner:{data:{heading:""
-}
-}
-}
-}
-}
+ data: {}
 }
 export default (state = initState, action) => {
 switch(action.type) {
  case COMMON_API :
- return {...state, message: action.payload}
+ return {...state, data: action.payload.response.data}
  default :
  return state
  }

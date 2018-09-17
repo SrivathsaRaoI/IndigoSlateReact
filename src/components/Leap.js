@@ -6,11 +6,9 @@ class Leap extends React.Component {
     super();
   }
  render () {
-  console.log(this.props.apiServiceReducer.message.response.data.banner.data.heading)
    return (
      <div>
        Leap <br/>
-      {this.props.apiServiceReducer.message.response.data.banner.data.heading}
      </div>
    )
  }

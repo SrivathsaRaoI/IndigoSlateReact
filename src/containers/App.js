@@ -12,7 +12,15 @@ import ReImagine from '../components/ReImagine';
 import SignInModal from '../components/SignInModal';
 import {connect} from 'react-redux';
 import {getCommonApiAction} from '../actions/apiServiceAction';
-import "../assets/styles/App.css";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faLock } from '@fortawesome/free-solid-svg-icons'
+import '../assets/styles/app.scss';
+
+
+
+library.add(faLock)
 
 class App extends Component{
   constructor(){
@@ -24,16 +32,21 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-        <h1> Hello, World! rr mm kkk mmmm jjj</h1>
-        <Header />
-        <AzureCosmosDb />
+        <Header signed ="true" />
         <Banner />
-        <Control />
-        <Deliver />
-        <Footer />
+        <ReImagine />
         <Leap />
         <Meet />
-        <ReImagine />
+        <Control />
+        <Deliver />
+        <AzureCosmosDb />
+        
+        
+        
+        <Footer />
+        
+        
+        
         <SignInModal />
       </div>
     );

@@ -6,11 +6,9 @@ class ReImagine extends React.Component {
     super();
   }
  render () {
-  console.log(this.props.apiServiceReducer.message.response.data.banner.data.heading)
    return (
      <div>
        ReImagine <br/>
-      {this.props.apiServiceReducer.message.response.data.banner.data.heading}
      </div>
    )
  }
