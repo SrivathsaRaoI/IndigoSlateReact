@@ -20,7 +20,7 @@ class Footer extends React.Component {
             <div className="text-center">
                 <h1>{head}</h1>
                 <p>{info}</p>
-                <button type="button"  class="btn btnNosign btn-lg"><font-awesome-icon size="xs" icon="lock" /> {ButtonText}</button>
+                <button type="button"  className="btn btnNosign btn-lg"><font-awesome-icon size="xs" icon="lock" /> {ButtonText}</button>
             </div>
         </div> 
     </div>

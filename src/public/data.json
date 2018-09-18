@@ -41,7 +41,7 @@
     }
    ],
    "banner":{
-       "url":"./src/assets/images/bannerTop.png",
+       "url":"./assets/images/bannerTop.png",
        "data":{
            "heading": "Build modern apps that are cool for cats",
            "body": "Are your apps up to scratch? Improve your app experience with Azure Cosmos DB's easy-to-use consistency models that give you better control over performance and availability."
