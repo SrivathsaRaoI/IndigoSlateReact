@@ -4,13 +4,21 @@ import {connect} from 'react-redux';
 class Banner extends React.Component {
   constructor(){
     super();
+    this.state ={windowSize:(window.innerHeight -68) +'px'};
+  }
+  componentWillMount(){
+    window.onresize =(event)=> {
+      this.setState({
+        windowSize:(window.innerHeight -68) +'px'
+      })
+    }
   }
  render () {
   const data = this.props.apiServiceReducer.data;
   const url = data.banner && data.banner.url ||null;
   const heading = data.banner && data.banner.data && data.banner.data.heading ||null;
   const body = data.banner && data.banner.data && data.banner.data.body ||null;
-  var height = (window.innerHeight -68) +'px';
+  var height = this.state.windowSize;
    return (
     <div className="banner" style ={{height:height}}>
      <div className="header-row" id="header-row" style ={{"backgroundImage": "url("+url+")"}}>
