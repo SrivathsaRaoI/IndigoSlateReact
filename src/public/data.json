@@ -159,8 +159,8 @@
         }
     },
     "meet":{
-        "url":"./src/assets/images/chapter1_hero-image.jpg",
-        "urlsm":"./src/assets/images/meet_cat.jpg",
+        "url":"./assets/images/chapter1_hero-image.jpg",
+        "urlsm":"./assets/images/meet_cat.jpg",
         "title":"Meet",
         "chapter": "Chapter-3",
         "head": "Meet the globally distributed database... and its quirks",
@@ -170,7 +170,7 @@
         "dataReplicate":{
             "title": "Data replicates globally",
             "content":"With data replicated around the globe and dynamic changes happening all the time, replicas can get out of sync. Bill and Sally may find that they don’t have access to the same data at the same time as geographically dispersed replicas catch up with one another.",
-            "url": "./src/assets/images/chapter3_chart_image.jpg"
+            "url": "./assets/images/chapter3_chart_image.jpg"
         }
     },
     "control":{
@@ -195,8 +195,8 @@
             }
             },
     "deliver":{
-                "url":"./src/assets/images/chapter5_hero-image.jpg",
-                "urlsm":"./src/assets/images/900w_chapter5_cat-hero.jpg",
+                "url":"./assets/images/chapter5_hero-image.jpg",
+                "urlsm":"./assets/images/900w_chapter5_cat-hero.jpg",
                 "title":"Deliver",
                 "chapter": "Chapter-5",
                 "head": "Deliver the app experience your users want",
@@ -205,7 +205,7 @@
                 "textSecondary":"In a nutshell, these theorems mean there’s a give and take between data consistency, data availability, throughput, and latency in a distributed system, which directly affects your app user’s experience. Many developers assume they can only have it one of two ways—offer either strong consistency and poor availability or poor consistency and high availability—because that’s all that’s traditionally been available in the market.",
                 "textSecondarySub":"Over the past three decades, however, computer science researchers have proposed more than 50 models, or sets of rules, that make calculated trade-offs between latency, throughput, availability, and consistency. These fall in a wide spectrum between the limitations of eventual and strong consistency models. None of the proposed models are available as turnkey solutions in the market.",                                                                                                                                      
                 "capData":{
-                    "url":"./src/assets/images/chapter5_chart_image.png",
+                    "url":"./assets/images/chapter5_chart_image.png",
                     "contentPrimary":"In a nutshell, these theorems mean there’s a give and take between data consistency, data availability, throughput, and latency in a distributed system, which directly affects your app user’s experience. Many developers assume they can only have it one of two ways—offer either strong consistency and poor availability or poor consistency and high availability—because that’s all that’s traditionally been available in the market.",
                     "contentSecondary":"Over the past three decades, however, computer science researchers have proposed more than 50 models, or sets of rules, that make calculated trade-offs between latency, throughput, availability, and consistency. These fall in a wide spectrum between the limitations of eventual and strong consistency models. None of the proposed models are available as turnkey solutions in the market."
                 }
