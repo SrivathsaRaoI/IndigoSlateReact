@@ -174,7 +174,7 @@
         }
     },
     "control":{
-            "url":"./src/assets/images/chapter4_hero-image.jpg",
+            "url":"./assets/images/chapter4_hero-image.jpg",
             "urlsm":"./src/assets/images/900w_chapter4_cat-hero.jpg",
             "title":"Control",
             "chapter": "Chapter-4",
@@ -186,11 +186,11 @@
             "tabData":{
                 "tabOne":{
                     "head":"Strong Data Consistency",
-                    "url":"./src/assets/images/chapter4_tab1_image.jpg"
+                    "url":"./assets/images/chapter4_tab1_image.jpg"
                 },
                 "tabTwo":{
                     "head":"Eventual Data Consistency",
-                    "url":"./src/assets/images/chapter4_tab2_image.jpg"
+                    "url":"./assets/images/chapter4_tab2_image.jpg"
                 }
             }
             },

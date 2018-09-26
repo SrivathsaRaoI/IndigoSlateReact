@@ -20,7 +20,7 @@ class Footer extends React.Component {
             <div className="text-center">
                 <h1>{head}</h1>
                 <p>{info}</p>
-                <button type="button"  className="btn btnNosign btn-lg"><font-awesome-icon size="xs" icon="lock" /> {ButtonText}</button>
+                <button type="button"  className="btn btnNosign btn-lg"><i class="fa fa-lock fa-xs" aria-hidden="true"></i> {ButtonText}</button>
             </div>
         </div> 
     </div>
@@ -34,3 +34,6 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps)(Footer);
+
+
+///<FontAwesomeIcon size="xs" icon="lock" />

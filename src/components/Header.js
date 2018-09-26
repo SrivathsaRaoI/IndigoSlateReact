@@ -42,6 +42,7 @@ class Header extends React.Component {
       
       
    })*/
+   //https://content.microsoft.com/apps-for-cats
    navigationList = navigation.map((item,i)=>{
      if(signed == "truew"){
         return (<li className="nav-item active" key ={i}>
@@ -55,7 +56,7 @@ class Header extends React.Component {
         return (<li className="nav-item active" key ={i}>
          <a className="nav-link" href="#">
          <span  className="grey" ></span>
-         <FontAwesomeIcon icon="lock" /> {item.title}<span className="sr-only">(current)</span>
+         <i class="fa fa-lock" aria-hidden="true"></i> {item.title}<span className="sr-only">(current)</span>
        
          </a>
         </li>)

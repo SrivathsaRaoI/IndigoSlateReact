@@ -25,9 +25,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
+    "ttf-loader": "^1.0.2",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.8"
@@ -49,6 +51,8 @@
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
     "save": "^2.3.2",
-    "segoe-fonts": "^1.0.1"
+    "segoe-fonts": "^1.0.1",
+    "url": "^0.11.0",
+    "url-loader": "^1.1.1"
   }
 }

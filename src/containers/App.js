@@ -14,6 +14,7 @@ import {connect} from 'react-redux';
 import {getCommonApiAction} from '../actions/apiServiceAction';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js';
+import 'font-awesome/css/font-awesome.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import '../assets/styles/app.scss';
