@@ -211,7 +211,7 @@
                 }
                 },
     "cosmos":{
-                "url":"./src/assets/images/chapter6_hero-image.jpg",
+                "url":"./assets/images/chapter6_hero-image.jpg",
                 "urlsm":"./src/assets/images/900w_chapter5_cat-hero.jpg",
                 "title":"Azure Cosmos DB",
                 "chapter": "Chapter-6",
@@ -220,7 +220,7 @@
                 "textContent":"Azure Cosmos DB is the first and only globally distributed database service that offers five well-defined and preconfigured consistency models to help you navigate the trade-offs between data consistency and app availability.",
                 "textSecondary":"Engineers at Microsoft thoroughly vetted and tested the models proposed from academia in order to identify those they felt were the most practical, useful, and robust. They identified three that best met the needs of the developer community, which are available in Azure Cosmos DB, alongside <strong>strong</strong> and <strong>eventual</strong> models, as turnkey configurations.",
                 "appData":{
-                   "url":"./src/assets/images/chapter5_chart_image.png",
+                   "url":"./assets/images/chapter5_chart_image.png",
                    "title":"Preconfigured choices to help you build a better app experience",
                     "content":"Azure Cosmos DB distills decades of research to make five well-defined consistency models available to you as preconfigured choices, backed by enterprise-grade SLAs*.",
                     "navData":[
@@ -229,7 +229,7 @@
                                 "title":"Strong",
                                 "link":"Strong",
                                 "head":"Getting whatever you can, whenever you can, as fast as you can",
-                                "url":"./src/assets/images/chapter6_cat1_image.png",
+                                "url":"./assets/images/chapter6_cat1_image.png",
                                 "content":{
                                     "infoPrimary":"The strong model favors data consistency above all else and preserves the order in which data is written. It guarantees your app users will see all previous writes. When you choose the strong model, you ask your app users to wait until all data writes have been fully written to the master and made durably available. Your app users get an error message if their request comes before the data is ready. The strong model is great if you need your app users to read the absolute truth every time.",
                                     "listData":[
@@ -254,7 +254,7 @@
                                 "title":"Bounded-staleness",
                                 "link":"Bounded",
                                 "head":"Fetching data that’s not “too old” to boost performance",
-                                "url":"./src/assets/images/chapter6_cat2_image.png",
+                                "url":"./assets/images/chapter6_cat2_image.png",
                                 "content":{
                                     "infoPrimary":"The bounded-staleness model ensures relatively accurate data in a more reasonable time frame than the strong model. When you choose the bounded-staleness model, you are saying it’s okay for apps to fetch old data from local replicas, provided it’s not more than x versions older than a primary or peer. The bounded-staleness model is great for apps that can afford to have a little lag time in favor of data consistency.",
                                     "listData":[
@@ -276,7 +276,7 @@
                                 "title":"Session",
                                 "link":"Session",
                                 "head":"Putting the individual app user’s experience front and center",
-                                "url":"./src/assets/images/chapter6_cat3_image.png",
+                                "url":"./assets/images/chapter6_cat3_image.png",
                                 "content":{
                                     "infoPrimary":"The session model prioritizes the user’s interaction by guaranteeing highly available and consistent data throughout that particular session. Session consistency provides predictable read-your-own-write consistency for a given session with maximum read throughput, while preserving low latency writes and reads. Consistency within a given session is strong, while consistency outside the given session is eventual. The session model is great for apps that require logical and real-time experiences for the user.",
                                     "listData":[
@@ -301,7 +301,7 @@
                                 "title":"Consistent prefix",
                                 "link":"Consistent",
                                 "head":"Preserving the order of data writes without too much concern for how old they are",
-                                "url":"./src/assets/images/chapter6_cat4_image.png",
+                                "url":"./assets/images/chapter6_cat4_image.png",
                                 "content":{
                                     "infoPrimary":"The consistent prefix model favors performance and availability without sacrificing the sequence of events by fetching old data fast. When you choose the consistent prefix model, you’re saying it’s okay to give your app users old data as long as the data read observes the actual sequence of writes. This differs from the eventual model in that it reflects the order of writes as they occurred. The consistent prefix model is great for apps in which the order of the data tells as much of a story as the end result.",
                                     "listData":[
@@ -322,7 +322,7 @@
                                 "title":"Eventual",
                                 "link":"Eventual",
                                 "head":"Getting whatever you can, whenever you can, as fast as you can",
-                                "url":"./src/assets/images/chapter6_cat5_image.png",
+                                "url":"./assets/images/chapter6_cat5_image.png",
                                 "content":{
                                     "infoPrimary":"The eventual model favors app performance above data consistency or write order.&nbsp;<br> When you choose the eventual model, you’re saying it doesn’t matter in what order data is read, as long as something is available. Data that fetches under the eventual model offers the lowest latency for both reads and writes, but it also provides the weakest consistency.<br> The eventual model is great for apps that live and die according to their availability.",
                                     "listData":[
@@ -344,7 +344,7 @@
                          }
                     ],
                     "footer":{
-                        "url":"./src/assets/images/chapter6_slide1_image.jpg",
+                        "url":"./assets/images/chapter6_slide1_image.jpg",
                         "range":[
                             {
                                 "info":"Higher"
