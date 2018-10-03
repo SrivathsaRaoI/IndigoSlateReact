@@ -36,7 +36,7 @@ class App extends Component{
         <Header signed ="true" />
         <Banner />
         <ReImagine />
-        <Leap />
+        <Leap signed ="true"/>
         <Meet />
         <Control />
         <Deliver />

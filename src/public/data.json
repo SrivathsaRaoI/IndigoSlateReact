@@ -57,8 +57,8 @@
     "leap":{
         "title":"Leap",
         "chapter": "Chapter-2",
-        "url": "./src/assets/images/chapter2_empty-house_image.jpg",
-        "urlDual": "./src/assets/images/chapter2_house-cats_image.png",
+        "url": "./assets/images/chapter2_empty-house_image.jpg",
+        "urlDual": "./assets/images/chapter2_house-cats_image.png",
         "head": "Leap modern app challenges and land on your feet",
         "textPrimary":"As a developer looking to build a modern global application, you face a whole new set of challenges when it comes to data management. In order to ensure your app delivers a fast and responsive experience without lags in service, you need a highly available database system that guarantees low latency and predictable throughput. You need a system that won’t be crushed by the size of the data and can also put data as close to your users as possible—wherever your users are.",
         "textSecondary":"We often refer to these challenges as “horizontal scaling” (or big data) and “distribution,” which essentially boil down to questions we’ve been asking for years about how to store, access, move, and change data. The difference in a global scenario, however, is that the answer doesn’t lead to changing the existing system; it requires you to reimagine the whole system.",
@@ -73,7 +73,7 @@
             "petRoom":"Living room = Storage capacity."
         },
         "toggleVolume":{
-            "url": "./src/assets/images/chapter2_cat1-image.jpg",
+            "url": "./assets/images/chapter2_cat1-image.jpg",
             "headerInfo":"As business booms, you may have...",
             "toggleInfoPrimary":{
                 "title":"volume",
